@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Guaki",
+    "slug": "Guaki",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/IconGuaki.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo_guaki.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.martilopezz.Guaki",
+      "buildNumber": "3"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_guaki.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.martilopezz.Guaki"
+    },
+    "web": {
+      "favicon": "./assets/logo_guaki.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a93b0595-630e-418a-a472-e978747810f4"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Guaki to access your camera."
+        }
+      ]
+    ]
+  }
+}
